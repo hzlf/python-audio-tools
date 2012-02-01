@@ -102,8 +102,7 @@ verifymodule = Extension('audiotools.verify',
                                   'src/common/ogg_crc.c',
                                   'src/bitstream.c'])
 
-extensions = [cdiomodule,
-              resamplemodule,
+extensions = [resamplemodule,
               pcmmodule,
               replaygainmodule,
               decodersmodule,
